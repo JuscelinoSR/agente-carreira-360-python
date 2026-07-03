@@ -1,0 +1,32 @@
+[
+  {
+    "titulo": "Analista Comercial",
+    "area": "Gestão Comercial",
+    "palavras_chave": [
+      "Gestão Comercial",
+      "Indicadores",
+      "Atendimento",
+      "Análise de Dados"
+    ]
+  },
+  {
+    "titulo": "Assistente Administrativo Remoto",
+    "area": "Trabalho remoto",
+    "palavras_chave": [
+      "Atendimento",
+      "Organização",
+      "Processos",
+      "Comunicação"
+    ]
+  },
+  {
+    "titulo": "Data Evaluator / AI Rater",
+    "area": "IA e avaliação de dados",
+    "palavras_chave": [
+      "IA",
+      "Análise",
+      "Atenção a detalhes",
+      "Pesquisa online"
+    ]
+  }
+]
