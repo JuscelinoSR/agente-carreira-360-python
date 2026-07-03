@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Agente Carreira 360",
+    "descricao": "Projeto de agente de IA em Python para atualização de currículo, LinkedIn, conteúdo profissional e networking.",
+    "tecnologias": [
+      "Python",
+      "JSON",
+      "Markdown",
+      "IA aplicada à carreira"
+    ],
+    "status": "Em desenvolvimento"
+  }
+]

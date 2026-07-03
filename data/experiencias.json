@@ -1,0 +1,31 @@
+[
+  {
+    "cargo": "Analista Comercial de Unidade 1",
+    "empresa": "BRK Ambiental",
+    "periodo": "maio/2025 - atual",
+    "descricao": [
+      "Atuação em análise comercial e operacional.",
+      "Apoio em roteirização de equipes e otimização de processos.",
+      "Análise de consumo, fiscalização comercial e acompanhamento de indicadores.",
+      "Apoio à tomada de decisão com base em dados e melhoria contínua."
+    ]
+  },
+  {
+    "cargo": "Assistente Comercial",
+    "empresa": "BRK Ambiental",
+    "periodo": "dez/2021 - abr/2025",
+    "descricao": [
+      "Apoio à liderança de equipes de campo.",
+      "Acompanhamento de atividades comerciais, operacionais e atendimento ao cliente."
+    ]
+  },
+  {
+    "cargo": "Agente Comercial I",
+    "empresa": "BRK Ambiental",
+    "periodo": "ago/2018 - nov/2021",
+    "descricao": [
+      "Atuação em leitura de hidrômetros, revisão de consumo, corte e religação.",
+      "Apoio em fiscalização, hidrometria, atendimento e atualização cadastral."
+    ]
+  }
+]

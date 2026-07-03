@@ -1,0 +1,32 @@
+[
+  {
+    "dia": "Segunda-feira",
+    "rede": "LinkedIn",
+    "tema": "Carreira e planejamento",
+    "objetivo": "Mostrar evolução profissional"
+  },
+  {
+    "dia": "Terça-feira",
+    "rede": "Instagram",
+    "tema": "Estudos e aprendizado",
+    "objetivo": "Mostrar constância"
+  },
+  {
+    "dia": "Quarta-feira",
+    "rede": "LinkedIn",
+    "tema": "Bastidor profissional",
+    "objetivo": "Mostrar experiência prática"
+  },
+  {
+    "dia": "Quinta-feira",
+    "rede": "TikTok/Reels/Shorts",
+    "tema": "Dica rápida",
+    "objetivo": "Gerar conteúdo útil"
+  },
+  {
+    "dia": "Sexta-feira",
+    "rede": "LinkedIn",
+    "tema": "Reflexão da semana",
+    "objetivo": "Mostrar maturidade profissional"
+  }
+]
