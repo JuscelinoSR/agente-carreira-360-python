@@ -1,0 +1,2 @@
+# Versão inicial sem dependências externas.
+# Usar apenas biblioteca padrão do Python.
