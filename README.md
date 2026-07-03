@@ -71,6 +71,21 @@ agente-carreira-360-python/
 
 O projeto não publica automaticamente em redes sociais. Ele apenas gera rascunhos para revisão humana.
 
+## Privacidade e segurança
+
+- Nunca salve senhas, tokens, documentos pessoais ou chaves de API no repositório.
+- Use variáveis de ambiente e mantenha o arquivo `.env` somente na máquina local.
+- Os diretórios `data/` e `outputs/` fazem parte do repositório público. Revise seu conteúdo antes de cada commit.
+- Relate vulnerabilidades conforme as orientações de [SECURITY.md](SECURITY.md), sem abrir detalhes sensíveis em uma issue pública.
+
+## Contribuição
+
+Leia [CONTRIBUTING.md](CONTRIBUTING.md) e [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) antes de enviar alterações.
+
+## Licença
+
+Este repositório ainda não possui uma licença de código aberto. Até que uma licença seja escolhida, nenhum direito de reutilização é concedido automaticamente.
+
 ## Autor
 
 Juscelino Silva Rodrigues

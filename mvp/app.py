@@ -5,11 +5,18 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def executar_script(nome_script, *argumentos):
+def executar_script(nome_script, *argumentos, interativo=False):
     caminho = ROOT / "scripts" / nome_script
     if not caminho.exists():
         print(f"Script não encontrado: {caminho}")
-        return
+        return 1
+
+    if interativo:
+        resultado = subprocess.run(
+            [sys.executable, str(caminho), *argumentos],
+            cwd=str(caminho.parent),
+        )
+        return resultado.returncode
 
     resultado = subprocess.run(
         [sys.executable, str(caminho), *argumentos],
@@ -24,6 +31,8 @@ def executar_script(nome_script, *argumentos):
     if resultado.stderr:
         print("Erros:")
         print(resultado.stderr)
+
+    return resultado.returncode
 
 
 def menu():
@@ -62,15 +71,15 @@ def menu():
             executar_script("gerar_networking.py")
             executar_script("analisar_vaga.py")
         elif opcao == "7":
-            executar_script("adicionar_dados.py", "curso")
+            executar_script("adicionar_dados.py", "curso", interativo=True)
         elif opcao == "8":
-            executar_script("adicionar_dados.py", "formacao")
+            executar_script("adicionar_dados.py", "formacao", interativo=True)
         elif opcao == "9":
-            executar_script("adicionar_dados.py", "conquista")
+            executar_script("adicionar_dados.py", "conquista", interativo=True)
         elif opcao == "10":
-            executar_script("adicionar_dados.py", "experiencia")
+            executar_script("adicionar_dados.py", "experiencia", interativo=True)
         elif opcao == "11":
-            executar_script("adicionar_dados.py", "competencia")
+            executar_script("adicionar_dados.py", "competencia", interativo=True)
         elif opcao == "12":
             executar_script("analisar_github.py")
         elif opcao == "0":

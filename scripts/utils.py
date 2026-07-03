@@ -14,7 +14,7 @@ def garantir_pasta(caminho: Path) -> None:
 def carregar_json(nome_arquivo: str, padrao=None):
     caminho = DATA_DIR / nome_arquivo
     if padrao is None:
-        padrao = []    
+        padrao = []
 
     if not caminho.exists():
         return padrao
