@@ -8,3 +8,10 @@ outputs/private/
 dados-pessoais/
 documentos-pessoais/
 *.log
+*.pyo
+.env.*
+!.env.example
+.pytest_cache/
+.coverage
+htmlcov/
+Thumbs.db
