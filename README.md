@@ -23,7 +23,16 @@ Criar uma ferramenta simples em Python para ajudar Juscelino Silva Rodrigues a o
 
 ## Como executar
 
-No terminal, dentro da pasta do projeto:
+Pré-requisito: Python 3 instalado, com o comando `python` disponível no terminal.
+
+Clone o projeto e entre na pasta:
+
+```bash
+git clone https://github.com/JuscelinoSR/agente-carreira-360-python.git
+cd agente-carreira-360-python
+```
+
+A versão inicial usa a biblioteca padrão do Python. No terminal, dentro da pasta do projeto:
 
 ```bash
 python mvp/app.py
@@ -66,6 +75,21 @@ agente-carreira-360-python/
 2. Execute `python mvp/app.py`.
 3. Escolha o que deseja gerar.
 4. Os arquivos serão salvos em `outputs/`.
+
+## Exemplo de uso
+
+Para gerar um currículo:
+
+1. Revise os dados em `data/`, mantendo apenas informações profissionais reais.
+2. Execute `python mvp/app.py`.
+3. Escolha **1. Gerar currículo**.
+4. Revise o arquivo Markdown gerado em `outputs/` antes de compartilhar.
+
+O menu também permite cadastrar cursos, formação, conquistas, experiências e competências, além de atualizar um resumo local do GitHub.
+
+## Como contribuir
+
+Consulte [CONTRIBUTING.md](CONTRIBUTING.md). Priorize melhorias pequenas, Python puro e exemplos com dados fictícios.
 
 ## Importante
 
