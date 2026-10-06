@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#111827" />
+  <title>Entrevista Inteligente | Agente Carreira 360</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="app-shell" aria-label="Entrevista Inteligente do Agente Carreira 360">
+    <header class="hero-card">
+      <div>
+        <p class="eyebrow">Agente Carreira 360</p>
+        <h1>Entrevista Inteligente</h1>
+        <p class="hero-text">
+          Converse com o assistente para transformar experiências formais e informais em um perfil profissional claro.
+        </p>
+      </div>
+      <div class="progress-card" aria-label="Progresso de preenchimento">
+        <span id="progressValue">0%</span>
+        <div class="progress-track">
+          <div id="progressBar" class="progress-bar"></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="content-grid">
+      <section class="chat-card" aria-label="Chat da entrevista profissional">
+        <div id="chatMessages" class="chat-messages" aria-live="polite"></div>
+
+        <form id="chatForm" class="chat-form">
+          <label class="sr-only" for="userAnswer">Digite sua resposta</label>
+          <textarea
+            id="userAnswer"
+            rows="3"
+            placeholder="Digite sua resposta aqui..."
+            autocomplete="off"
+          ></textarea>
+          <div class="chat-actions">
+            <button type="button" id="skipButton" class="button button-ghost">Pular</button>
+            <button type="submit" class="button button-primary">Enviar</button>
+          </div>
+        </form>
+      </section>
+
+      <aside class="summary-card" aria-label="Painel de resumo do perfil">
+        <div class="summary-header">
+          <div>
+            <p class="eyebrow">Resumo do perfil</p>
+            <h2>Perfil em construção</h2>
+          </div>
+          <span id="answeredCount" class="badge">0 respostas</span>
+        </div>
+
+        <div class="summary-section">
+          <h3>Experiências reconhecidas</h3>
+          <ul id="experienceList" class="tag-list"></ul>
+        </div>
+
+        <div class="summary-section">
+          <h3>Habilidades extraídas</h3>
+          <ul id="skillsList" class="tag-list"></ul>
+        </div>
+
+        <div class="summary-section">
+          <h3>Resumo profissional</h3>
+          <p id="profilePreview" class="profile-preview">
+            Responda às perguntas para gerar um resumo inicial do seu perfil.
+          </p>
+        </div>
+
+        <div id="manualEditor" class="manual-editor" hidden>
+          <label for="manualSummary">Editar resumo manualmente</label>
+          <textarea id="manualSummary" rows="6"></textarea>
+          <button type="button" id="saveManualButton" class="button button-secondary">Salvar edição</button>
+        </div>
+
+        <div class="bottom-actions">
+          <button type="button" id="generateResumeButton" class="button button-primary">Gerar currículo</button>
+          <button type="button" id="manualEditButton" class="button button-secondary">Editar manualmente</button>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
